@@ -5,7 +5,7 @@ interface IPROPS{
   character: string
 }
 function Card({character}: IPROPS) {
-  console.log(character)
+ 
   return (
     <div className="card">
       <h1 className={character === "O" ? "red-sign" : "blue-sign"}>

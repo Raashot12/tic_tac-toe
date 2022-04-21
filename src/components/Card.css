@@ -14,10 +14,17 @@
   color: skyblue;
 }
 
-.blueSign {
+.blue-sign {
   font-weight: 200;
 }
 
-.redSign {
+.red-sign {
   font-weight: 200;
+}
+
+@media (max-width:567px) {
+  .card{
+    height: 80px;
+    width: 80px;
+  }
 }

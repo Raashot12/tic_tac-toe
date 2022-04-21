@@ -9,19 +9,19 @@
   margin-right: auto;
 }
 
-.winMessage {
+.win-message {
   width: 400px;
   text-align: center;
   font-weight: 600;
 }
 
-.blueSign {
+.blue-sign {
   background: -webkit-linear-gradient(rgb(36, 213, 247), rgb(111, 36, 243));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.redSign {
+.red-sign {
   background: -webkit-linear-gradient(rgb(255, 175, 179), rgb(255, 61, 157));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -49,4 +49,11 @@
   color: white;
   text-decoration: underline;
   transform: translateY(-3px);
+}
+
+@media (max-width:560px) {
+ .Board{
+  width: 360px;
+  height: 400px;
+ } 
 }

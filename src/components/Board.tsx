@@ -104,7 +104,7 @@ const Board = () => {
           </span>
         ))}
         <h1
-          className={!playerTurn ? "blueSign winMessage" : "redSign winMessage"}
+          className={!playerTurn ? "blue-sign win-message" : "red-sign win-message"}
         >
           {winmessage}
         </h1>

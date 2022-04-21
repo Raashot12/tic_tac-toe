@@ -82,7 +82,7 @@ const Board = () => {
   useEffect(() => {
     const id = setTimeout(() => {
       resetHandler()
-    }, 2000)
+    }, 1000)
 
     return () => {
       clearTimeout(id)

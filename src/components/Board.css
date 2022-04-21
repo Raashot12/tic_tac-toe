@@ -1,0 +1,52 @@
+.Board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 500px;
+  justify-content: center;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.winMessage {
+  width: 400px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.blueSign {
+  background: -webkit-linear-gradient(rgb(36, 213, 247), rgb(111, 36, 243));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.redSign {
+  background: -webkit-linear-gradient(rgb(255, 175, 179), rgb(255, 61, 157));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.next-player-alert {
+  text-align: center;
+  color: rgb(11, 76, 228);
+}
+.reset-btn {
+  width: 150px;
+  color: rgb(11, 76, 228);
+  margin-top: 4rem;
+  height: 48px;
+  font-weight: bold;
+  border: 1px solid rgb(11, 76, 228);
+  background-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.reset-btn:hover {
+  transition: all ease-in-out 0.5s;
+  background-color: rgb(11, 76, 228);
+  color: white;
+  text-decoration: underline;
+  transform: translateY(-3px);
+}
